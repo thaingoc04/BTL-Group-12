@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    body{
+    background: url('ncp.jpg');
+    background-size: 100%;
+    }
+    a {
+    color: #00bd00;
+    text-decoration: none;
+    }
+    .Register{
+        margin-top: 50px;
+    }
+    form {
+    width: 560px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #E3EFEE;
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    }
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    }
+    .login{
+    background-color: #E3EFEE;
+    text-align: center;
+    margin: 0;
+    }
+    h2{
+        text-align: center;
+    }
+    div button{
+        font-size: 20px;
+        background-color: #DDA0DD;
+        border-radius: 10px;
+        border: none;
+        color: aqua;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    form p{
+        margin-top: 0;
+    }
+    @media only screen and (max-width: 600px) {
+        form {
+        width: 350px;
+        padding: 20px;
+        }
+        input[type=text], input[type=password] {
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+        }
+        div button{
+            font-size: 15px;
+            width: 100px;
+            height: 30px;
+            margin-bottom: 30px;
+        }
+    }
