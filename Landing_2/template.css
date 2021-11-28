@@ -1,0 +1,232 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+main{
+	background-color: rgb(53, 51, 51);
+}
+img{
+	width: 120px;
+	height: 30px;
+	margin-left: 60px;
+}
+/* .content{
+  border: 1px solid white;
+} */
+.header .a{
+	border: 1px solid #0dcaf0;
+	background-color: #0dcaf0;
+}
+#login{
+	text-align: center;
+}
+#login a{
+	color: deeppink;
+}
+/* Nav Bar */
+.task_bar{
+  padding-top: 10px;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.task_bar ul li{
+
+  display: inline-block;
+}
+.task_bar li a{
+  text-decoration: none;
+  font-size: 18px;
+  padding:14px 16px ;
+  color: #666;
+}
+.task_bar a:hover{
+  background-color: #ddd;
+}
+/* Main's Head */
+.main{
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.top{
+	
+	border-bottom: 1px solid #000000;
+  
+}
+.top_content{
+	color: #0dcaf0;
+}
+h2{
+	color: #0dcaf0;
+}
+.dropbtn {
+	background-color: #e0740e;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  } 
+.d2 {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+  }
+  
+.d2-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+.d2-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+.d2-content a:hover {background-color: #f1f1f1}
+  
+.d2:hover .d2-content {
+	display: block;
+  }
+  
+.d2:hover .dropbtn {
+	background-color: #3e8e41;
+  }
+/*  Main's Content */
+.content{
+	  text-align: center;
+  }
+figure img{
+	width: 700px;
+	height: 800px;
+}
+.number3{
+	width: 900px;
+	height: 800px;
+}
+.next{
+  margin: auto;
+  width: 200px;
+  padding: 10px 10px;
+}
+.pre{
+  text-decoration: none;
+  border: 1px solid #000000;
+  background-color: #e0740e;
+  color: #f1f1f1;
+  font-size: 18px;
+  padding: 5px 5px;
+}
+.container {
+	max-width: 640px;
+	margin: 30px auto;
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+}
+.comment {
+	display: block;
+	transition: all 1s;
+}
+/* Footer */
+footer{
+
+	border: 1PX solid #000000;
+	width: 100%;
+	background-color: rgb(162, 163, 159);
+	
+}
+/* Responsive Web */
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	header, main, footer {
+	  width: 100%;
+	}
+  figure img{
+    width: 480px;
+    height: 700px;
+    margin: 0 0;
+  }
+  .number3{
+    width: 480px;
+    height: 780px;
+  }
+  }
+/* Comment */
+.comment{
+	  text-align: center;
+	  border: 1px solid #000000;
+  }
+  .form {
+    margin-top: 20px;
+	  margin-bottom: 15px;
+    text-align: center;
+    border:none;
+    display: inline-block;
+    width: 100%;
+    }
+#form1 {
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    }
+#form1 input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #555;
+    display: block;
+    line-height: 1.2;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    padding: 0 20px 0 23px;
+    border: 0;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+    -o-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+    -ms-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+    }
+#form1 input[type=text]:focus{
+    border: 0;
+    outline: none;
+    box-shadow: 0 5px 20px 0 rgb(250 66 81 / 10%);
+    -moz-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+    -webkit-box-shadow: 0 5px 20px 0 rgb(250 66 81 / 10%);
+    -o-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+    -ms-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+    }
+#form1 #fcontent {
+    outline: none;
+    min-height: 150px;
+    }
+#form1 input[type=submit] {
+    background-color: #bd59d4;
+    height: 42px;
+    padding: 5px 20px;
+    border-radius: 21px;
+    font-size: 14px;
+    text-tranforms: uppercase;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 10px 30px 0 rgb(189 89 212 / 50%);
+    -moz-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+    -webkit-box-shadow: 0 10px 30px 0 rgb(189 89 212 / 50%);
+    -o-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+    -ms-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+    }
+#form1 input[type="submit"]:hover {
+    background:#CC4949;
+    }
+    /* main{
+      border: 1px solid #000000;
+    } */
+
